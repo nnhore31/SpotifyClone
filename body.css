@@ -1,0 +1,136 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+*{
+    padding: 0px;
+    margin:  0px;
+}
+h1{
+    color: whitesmoke;
+    margin: 10px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    height: 7vh;
+}
+nav img{
+    width: 35px;
+    padding: 10px;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+    /* flex-direction: row; */
+    margin: 5px 970px;
+    margin-top: 20px;
+    
+}
+nav ul li{
+    float: center;
+    justify-content: center;
+    font-size: 15px;
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    margin-left: 25px;
+    padding: auto 3px;
+}
+
+nav ul li:hover,nav ul li:active{
+    color: grey;
+    cursor: pointer;
+}
+h2{
+    padding: 15px 10px;
+}
+.container{
+    font-family: sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    /* display: flex; */
+    min-height: 74vh;
+    width: 70%;
+    background-image: url("coverimg.jpg");
+    margin: 23px auto;
+    border-radius: 20px;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 10qvh;
+    background-color: black;
+    color: whitesmoke;
+    bottom:  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom input{
+    margin-top: 10px;
+    width: 130vh;
+}
+#bottons{
+    color: aliceblue;
+    margin-top: 13px;
+}
+
+#songtime i:hover,#songtime i:active{
+   color: grey;
+}
+
+#songtime i{
+    cursor: pointer;
+}
+#bottons i:hover,#bottons i:active{
+    color: grey;
+}
+#bottons i{
+    color: aliceblue;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.songitem{
+    padding: 0px 0px;
+    margin: 15px ;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 60vh;
+    color: black;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.songlist{
+    margin: 30px 40px ;
+}
+.songitem img{
+    padding: 5px 25px;
+    width: 45px;
+}
+#songname{
+    padding: 5px 75px;
+}
+#songtime{
+ padding: 5px 2px;
+ justify-content: space-between;
+}
+.songinfo{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 40vh;
+    bottom: 2vh;
+    width: 25vh;   
+}
+.gif{
+    transition: opacity 1s ease-in;
+    margin-right: 1vw;
+}
+h5{
+    margin: 1vh;
+}
