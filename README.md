@@ -5,4 +5,5 @@
   Contributor <strong>Syed Imtiyaz Ali (javascript) </strong>
   <br><br>
   <a href="https://www.linkedin.com/in/imtiyaz-sde/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/imtiyaz-sde/" height="30" width="40" /></a>
+  <hr>
   
